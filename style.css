@@ -56,3 +56,28 @@ header .container .main button{
     font-weight: bold;
     margin-bottom: 30px;
 }
+/* media start */
+/* col-xl */ @media(min-width: 1200px){
+
+}
+/* col-lg */ @media(min-width: 992px) and (max-width:1199px){
+    header .container{
+        width: 900px;
+    }
+}
+/* col-md */ @media(min-width: 768px) and (max-width:991px){
+    header .container{
+        width: 700px;
+    }
+}
+/* col-sm */ @media(min-width: 576px) and (max-width:767px){
+    header .container{
+        width: 500px;
+    }
+}
+/* col */ @media(max-width: 575px){
+    header .container{
+        width: 500px;
+    }
+}
+/* media end */ 
